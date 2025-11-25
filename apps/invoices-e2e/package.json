@@ -1,10 +1,10 @@
 {
-  "name": "@my-microfrontend-app/host-e2e",
+  "name": "@my-microfrontend-app/invoices-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@my-microfrontend-app/host"
+      "@my-microfrontend-app/invoices"
     ]
   }
 }

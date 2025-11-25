@@ -7,10 +7,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'pnpm exec nx run @my-microfrontend-app/host:dev',
-        production: 'pnpm exec nx run @my-microfrontend-app/host:preview',
+        default: 'npx nx run @my-microfrontend-app/invoices:dev',
+        production: 'npx nx run @my-microfrontend-app/invoices:preview',
       },
-      ciWebServerCommand: 'pnpm exec nx run @my-microfrontend-app/host:preview',
+      ciWebServerCommand: 'npx nx run @my-microfrontend-app/invoices:preview',
       ciBaseUrl: 'http://localhost:4300',
     }),
     baseUrl: 'http://localhost:4200',

@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('@my-microfrontend-app/host-e2e', () => {
+describe('@my-microfrontend-app/about-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {

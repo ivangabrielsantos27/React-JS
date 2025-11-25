@@ -1,4 +1,15 @@
 {
+    "compilerOptions": {
+    "paths": {
+      "@project-ed/lib/constants": ["./lib/constants/src/index.ts"],
+      "@project-ed/lib/hooks": ["./lib/hooks/src/index.ts"],
+      "@project-ed/lib/http-service": ["./lib/http-service/src/index.ts"],
+      "@project-ed/lib/icons": ["./lib/icons/src/index.ts"],
+      "@project-ed/lib/shared-i18n": ["./lib/shared-i18n/src/index.ts"],
+      "@project-ed/lib/ui": ["./lib/ui/src/index.ts"],
+      "@project-ed/lib/utils": ["./lib/utils/src/index.ts"]
+    }
+  },
   "files": [],
   "include": [],
   "references": [

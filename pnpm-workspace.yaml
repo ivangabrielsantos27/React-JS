@@ -1,2 +1,6 @@
-packages: 
-  - "apps/*"
+packages:
+  - 'apps/*'
+  - 'lib/*'
+  - 'dashboard'
+  - 'about'
+  - 'invoices'

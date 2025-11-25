@@ -1,0 +1,32 @@
+{
+  "name": "host",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/host/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve-host": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "npm run clean-timestamps",
+          "nx serve host --mode=localhost"
+        ]
+      },
+      "dependsOn": [
+        "dashboard:preview",
+        "invoices:preview"
+      ],
+      "parallelism": true,
+      "configurations": {}
+    },
+    "dev": {
+      "dependsOn": ["serve-host"],
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx run host:serve-host"],
+        "parallel": true
+      }
+    }
+  }
+}

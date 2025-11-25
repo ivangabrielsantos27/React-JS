@@ -4,10 +4,28 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/host-e2e"
+      "path": "./apps/host"
     },
     {
-      "path": "./apps/host"
+      "path": "./lib/constants"
+    },
+    {
+      "path": "./lib/ui"
+    },
+    {
+      "path": "./about-e2e"
+    },
+    {
+      "path": "./about"
+    },
+    {
+      "path": "./apps/dashboard"
+    },
+    {
+      "path": "./apps/invoices-e2e"
+    },
+    {
+      "path": "./apps/invoices"
     }
   ]
 }
